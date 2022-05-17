@@ -1,7 +1,7 @@
 <template>
-  <main id="shop-section">
+  <section id="shop-section">
     <div class="container"></div>
-  </main>
+  </section>
 </template>
 
 <script>

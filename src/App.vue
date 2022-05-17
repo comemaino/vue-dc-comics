@@ -3,6 +3,7 @@
     <AppHeader />
     <AppMain />
     <AppShopSection />
+    <AppFooter />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppShopSection from "./components/AppShopSection.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     AppHeader,
     AppMain,
     AppShopSection,
+    AppFooter,
   },
 };
 </script>
