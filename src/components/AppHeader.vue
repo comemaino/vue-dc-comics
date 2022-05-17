@@ -86,12 +86,12 @@ export default {
   width: 100%;
   height: 100px;
   line-height: 100px;
-  border: 2px solid #f00;
+  border: 1px solid #f00;
 
   .col {
     height: 100px;
     line-height: 100px;
-    border: 2px solid #00f;
+    border: 1px solid #00f;
 
     ul {
       list-style: none;
