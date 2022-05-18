@@ -82,6 +82,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../components/style/common.scss";
+
 #header {
   width: 100%;
   height: 100px;
@@ -93,20 +95,13 @@ export default {
     line-height: 100px;
     border: 1px solid #00f;
 
-    ul {
-      list-style: none;
+    li {
+      display: inline-block;
+      margin: 0 0.5rem;
 
-      li {
-        display: inline-block;
-        margin: 0 0.5rem;
-
-        a {
-          font-size: 0.9rem;
-          color: #222;
-
-          text-decoration: none;
-          text-transform: uppercase;
-        }
+      a {
+        color: #444;
+        text-transform: uppercase;
       }
     }
   }

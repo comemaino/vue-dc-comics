@@ -207,6 +207,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../components/style/common.scss";
+
 #footer {
   height: 400px;
   background-color: #aaa;
@@ -219,17 +221,35 @@ export default {
 
     .col {
       display: flex;
-      align-items: center;
+      justify-content: flex-start;
 
       border: 1px solid #ff0;
+
+      &.right {
+        align-items: center;
+      }
 
       img {
         height: 140%;
       }
 
       .links-col {
+        margin: 0.5rem;
         display: flex;
         flex-direction: column;
+
+        ul {
+          margin: 0.5rem 0 1rem;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          color: #fff;
+        }
+
+        a {
+          color: #888;
+        }
       }
     }
   }

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid #0f0;
+}

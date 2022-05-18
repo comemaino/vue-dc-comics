@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
+    <AppBanner />
     <AppMain />
     <AppShopSection />
     <AppFooter />
@@ -9,6 +10,7 @@
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import AppBanner from "./components/AppBanner.vue";
 import AppMain from "./components/AppMain.vue";
 import AppShopSection from "./components/AppShopSection.vue";
 import AppFooter from "./components/AppFooter.vue";
@@ -17,6 +19,7 @@ export default {
   name: "App",
   components: {
     AppHeader,
+    AppBanner,
     AppMain,
     AppShopSection,
     AppFooter,
@@ -25,24 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  margin: 0 auto;
-  width: 80%;
-  height: 100%;
-
-  display: flex;
-  justify-content: space-between;
-
-  border: 1px solid #0f0;
-}
+@import "./components/style/common.scss";
 </style>

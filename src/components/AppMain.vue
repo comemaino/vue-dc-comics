@@ -13,6 +13,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../components/style/common.scss";
 #main {
   height: 100px;
   line-height: 100px;
