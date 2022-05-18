@@ -211,10 +211,10 @@ export default {
 
 #footer {
   height: 400px;
-  background-color: #aaa;
 
   #top {
-    height: 300px;
+    padding: 2rem 0;
+    height: 350px;
     background-image: url(../assets/img/footer-bg.jpg);
 
     overflow: hidden;
@@ -222,8 +222,6 @@ export default {
     .col {
       display: flex;
       justify-content: flex-start;
-
-      border: 1px solid #ff0;
 
       &.right {
         align-items: center;
@@ -240,6 +238,10 @@ export default {
 
         ul {
           margin: 0.5rem 0 1rem;
+
+          li {
+            line-height: 1.3rem;
+          }
         }
 
         h3 {

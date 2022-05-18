@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <div>Current Series</div>
+    <div class="button">Current Series</div>
   </div>
 </template>
 
@@ -17,13 +17,7 @@ export default {};
 
   position: relative;
 
-  div {
-    padding: 0.8rem;
-    color: #fff;
-    background-color: #18f;
-    font-weight: 700;
-    text-transform: uppercase;
-
+  .button {
     position: absolute;
     bottom: -1.4rem;
     left: 11rem;

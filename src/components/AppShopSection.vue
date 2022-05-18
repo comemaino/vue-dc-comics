@@ -63,8 +63,6 @@ export default {
       display: flex;
       align-items: center;
 
-      border: 1px solid #f00;
-
       img {
         margin: 1rem;
         height: 50%;
