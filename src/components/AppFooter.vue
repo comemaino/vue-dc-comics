@@ -14,9 +14,42 @@
                 <a href="">{{ item.text }} </a>
               </li>
             </ul>
+
+            <h3>shop</h3>
+            <ul>
+              <li
+                v-for="(item, index) in shopLinks"
+                :key="index"
+                :class="{ active: item.active }"
+              >
+                <a href="">{{ item.text }} </a>
+              </li>
+            </ul>
           </div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="links-col">
+            <h3>dc</h3>
+            <ul>
+              <li
+                v-for="(item, index) in dcLinks"
+                :key="index"
+                :class="{ active: item.active }"
+              >
+                <a href="">{{ item.text }} </a>
+              </li>
+            </ul>
+          </div>
+          <div class="links-col">
+            <h3>sites</h3>
+            <ul>
+              <li
+                v-for="(item, index) in sitesLinks"
+                :key="index"
+                :class="{ active: item.active }"
+              >
+                <a href="">{{ item.text }} </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col right">
           <img src="../assets/img/dc-logo-bg.png" alt="" />
