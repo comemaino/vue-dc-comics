@@ -53,7 +53,7 @@ export default {
         {
           url: "#",
           text: "Collectibles",
-          active: true,
+          active: false,
         },
         {
           url: "#",
@@ -90,15 +90,18 @@ export default {
   line-height: 100px;
 
   .col {
-    height: 100px;
-    line-height: 100px;
+    line-height: 96px;
 
     li {
       display: inline-block;
       margin: 0 0.5rem;
 
+      &.active {
+        color: #18f;
+        border-bottom: 3px solid #18f;
+      }
       a {
-        color: #444;
+        color: inherit;
         text-transform: uppercase;
       }
     }

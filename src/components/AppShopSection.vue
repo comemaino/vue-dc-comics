@@ -51,9 +51,8 @@ export default {
 
 #shop-section {
   height: 100px;
-  line-height: 100px;
   color: #fff;
-  background-color: #29f;
+  background-color: #18f;
 
   .buy-links {
     display: flex;

@@ -21,6 +21,7 @@ export default {
 @import "../components/style/common.scss";
 
 .comic-card {
+  margin: 1rem;
   width: calc(100% / 6 - 2rem);
 
   .img-wrapper {

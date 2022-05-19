@@ -232,7 +232,7 @@ export default {
       }
 
       .links-col {
-        margin: 0.5rem;
+        margin: 0.5rem 1rem;
         display: flex;
         flex-direction: column;
 
